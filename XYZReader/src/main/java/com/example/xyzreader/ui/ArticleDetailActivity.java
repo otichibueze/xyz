@@ -112,7 +112,11 @@ public class ArticleDetailActivity extends AppCompatActivity
         }
 
         ActionBar actionBar = this.getSupportActionBar();
-        if(actionBar != null) actionBar.setDisplayHomeAsUpEnabled(true);
+        if(actionBar != null)
+        {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+            actionBar.setDisplayShowHomeEnabled(true);
+        }
     }
 
     @Override
