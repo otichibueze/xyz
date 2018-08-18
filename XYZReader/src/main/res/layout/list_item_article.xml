@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginLeft="4dp"
     android:layout_marginRight="4dp"
     android:layout_marginTop="4dp"
@@ -18,8 +19,10 @@
         <!--suppress AndroidLintContentDescription -->
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
             android:id="@+id/thumbnail"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
             android:background="@color/photo_placeholder" />
 
         <TextView
@@ -28,11 +31,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
-            android:paddingTop="16dp"
+            android:paddingTop="8dp"
             android:paddingRight="16dp"
             android:paddingBottom="4dp"
             android:textColor="@color/ltgray"
+            android:textStyle="bold"
             android:ellipsize="end"
+            tools:text="hello am i here to test"
             android:maxLines="4" />
 
         <TextView
@@ -43,7 +48,9 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:paddingBottom="16dp"
-            android:textColor="#6000"
+            android:textColor="@color/ltgraylight"
+            tools:text="hello am i here to test"
+            android:textStyle="italic"
             android:maxLines="2"
             android:ellipsize="end" />
     </LinearLayout>
