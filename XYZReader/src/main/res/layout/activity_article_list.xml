@@ -32,6 +32,7 @@
                 android:src="@drawable/logo"
                 android:layout_marginBottom="5dp"
                 android:layout_gravity="bottom"
+                android:transitionName="img"
                 android:contentDescription="@string/app_name" />
 
         </android.support.v7.widget.Toolbar>
