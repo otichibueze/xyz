@@ -1,4 +1,6 @@
-# Make Your App Material
+# XYZ READER
+
+### Make Your App Material
 
 This project is created under Google Udacity Android Developer Nanodegree.
 
