@@ -2,12 +2,8 @@
 
 ### Make Your App Material
 
-This project is created under Google Udacity Android Developer Nanodegree.
+Transform the user experience of a news-reading app using Material Design principles. These include consistent and meaningful use of Material Design UI components, fonts, color, motion, and surfaces.
 
-
-Transformed the user experience of a news reading app using Material Design principles.
-This includes consistent and meaningful use of Material Design UI components, fonts, color, motion and surfaces.
- 
 ## Screenshots
 ![alt text](https://github.com/otichibueze/xyz/blob/master/screenshots/e.png)
 ![alt text](https://github.com/otichibueze/xyz/blob/master/screenshots/d.png)
